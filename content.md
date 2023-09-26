@@ -1,12 +1,12 @@
 # The terminal in VSCode
 
-We are using the [VSCode](https://code.visualstudio.com/) integrated code editor in this course. Whenever you boot up a fresh Codespace, this is the application that you are interacting with to explore your files, Git version control (commit, push, etc.), edit your code, and view your live app preview. 
+We are using the [VSCode](https://code.visualstudio.com/) integrated code editor in this course. Whenever you boot up a fresh codespace, this is the application that you are interacting with to explore your files, Git version control (commit, push, etc.), edit your code, and view your live app preview. 
 
 Let's discuss the all important **terminal** integrated into VSCode.
 
 ## Codespace (VSCode) layout
 
-Whenever you boot up a fresh Codespace, [Visual Studio Code](https://code.visualstudio.com/) (a.k.a. VSCode) is the application that you are interacting with.
+Whenever you boot up a fresh codespace, [Visual Studio Code](https://code.visualstudio.com/) (a.k.a. VSCode) is the application that you are interacting with.
 
 The basic components of the VSCode window are the three **panes**:
 
@@ -17,8 +17,7 @@ The basic components of the VSCode window are the three **panes**:
 * the **bottom pane** 
   * containing the **terminal** and **ports tabs** (where you run a live app server on a port with `rackup` and run `rake grade`)
 
-<!-- ![](/assets/vscode-layout.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686338851/vscode-layout_yh62tb.png)
+![](/assets/vscode-layout.png)
 {: .bleed-full }
 
 ### Reopen a pane
@@ -32,8 +31,7 @@ To reopen them, there are keyboard shortcuts to close and reopen:
 
 But, you can always click on the top left hamburger menu to bring up the VSCode options and visit "View" to reopen:
 
-<!-- ![](/assets/vscode-reopen-editor-or-terminal.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686338878/vscode-reopen-editor-or-terminal_ekhafk.png)
+![](/assets/vscode-reopen-editor-or-terminal.png)
 {: .bleed-full }
 
 ## The terminal
@@ -48,8 +46,7 @@ Take a moment to read about the all-important, but perhaps unfamiliar, terminal 
 
 In the terminal tab, we have:
 
-<!-- ![](/assets/terminal-hello-world-layout.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1689097394/terminal-hello-world-layout_pin2jy.png)
+![](/assets/terminal-hello-world-layout.png)
 {: .bleed-full }
 
 * The GitHub repo name.
@@ -90,7 +87,7 @@ You can think of a "network port" as something that allows types of programs to 
 
 The web server of a Rails app runs on a port (port 3000 by default). This allows us to visit the web application in the browser using the IP Address of the computer _plus_ the port number.
 
-Since we're working in Codespaces (and not running the web server on our own computer), Codespaces gives us a URL to access the web application. 
+Since we're working in codespaces (and not running the web server on our own computer), codespaces gives us a URL to access the web application. 
 
 Locally, when your computer connects to a network, you get an address (an IP address, like `192.168.8.9`) that other computers use to reach programs running on it. But you don’t want to be limited to only one program being able to talk to the outside world, so you can further subdivide your address by using ports, usually a four digit number that you append after a colon: `192.178.8.9:3000` is the one we usually assign to our development web server.
 
